@@ -23,5 +23,11 @@ const favCars =
     make: 'Nissan',
     model: 'Silvia',
     body: 'Coupe'
+  },
+  {
+    id: '5',
+    make: 'Nissan',
+    model: 'Cefiro',
+    body: 'Sedan'
   }  
 ];
