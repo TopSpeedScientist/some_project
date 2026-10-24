@@ -5,5 +5,11 @@ const favCars =
     make: 'Nissan',
     model: 'Skyline',
     body: 'Coupe'
-  }
+  },
+  {
+    id: '2',
+    make: 'Nissan',
+    model: 'Leopard',
+    body: 'Coupe'
+  }  
 ];
