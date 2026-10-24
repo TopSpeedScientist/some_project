@@ -11,5 +11,11 @@ const favCars =
     make: 'Nissan',
     model: 'Leopard',
     body: 'Coupe'
+  },
+  {
+    id: '3',
+    make: 'Nissan',
+    model: 'Bluebird',
+    body: 'Coupe'
   }  
 ];
