@@ -16,6 +16,12 @@ const favCars =
     id: '3',
     make: 'Nissan',
     model: 'Bluebird',
+    body: 'Sedan'
+  },
+  {
+    id: '4',
+    make: 'Nissan',
+    model: 'Silvia',
     body: 'Coupe'
   }  
 ];
