@@ -17,20 +17,25 @@ void main() {
               size: 50,
               color: Colors.yellowAccent
             ),
+            SizedBox(
+              height: 10,
+            ),
             Text(
               'Learning Flutter',
               style: TextStyle(
                 fontWeight: FontWeight.bold
               ),
             ),
+            SizedBox(
+              height: 10,
+            ),
             ElevatedButton(
               onPressed: () {},
-              child: Text(
-                'Start',
-                style: TextStyle(
-                  color: Colors.black
-                ),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Color(0xFFb32533),
+                foregroundColor: Colors.black
               ),
+              child: Text('Start')
             )
           ],
         ),
