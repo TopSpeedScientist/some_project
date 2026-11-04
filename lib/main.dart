@@ -12,48 +12,24 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFb32533),
-        title: Text('My First Material App'),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.star,
-              size: 50,
-              color: Colors.yellowAccent
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              'Learning Flutter',
-              style: TextStyle(
-                fontWeight: FontWeight.bold
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            ElevatedButton(
-              onPressed: () {},
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Color(0xFFb32533),
-                foregroundColor: Colors.black
-              ),
-              child: Text('Start')
-            )
-          ],
+        title: Text(
+          'My First Material App',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold
+          ),
         ),
+        centerTitle: true,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.grey[300],
-        child: Icon(
-          Icons.add,
-          color: Colors.black,
-        ),
+        backgroundColor: Color(0xFFb32533),
+        child: Text(
+          'Click!',
+          style: TextStyle(
+            color: Colors.white
+          ),
+        )
       ),
     );
   }
