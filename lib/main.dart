@@ -2,7 +2,14 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Scaffold(
+    home: Home()
+  ));
+}
+
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFb32533),
         title: Text('My First Material App'),
@@ -48,6 +55,6 @@ void main() {
           color: Colors.black,
         ),
       ),
-    )
-  ));
+    );
+  }
 }
