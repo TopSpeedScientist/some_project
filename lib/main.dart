@@ -21,6 +21,13 @@ class Home extends StatelessWidget {
         ),
         centerTitle: true,
       ),
+      body: Center(
+        child: Container(
+        padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+        color: Colors.blue[200],
+        child: Text('Some Container')
+        )
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: Color(0xFFb32533),
